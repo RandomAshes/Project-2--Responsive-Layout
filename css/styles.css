@@ -7,11 +7,13 @@
 
 header,
 .main {
+	display: flex;
 	display: -webkit-flex;
 }
 
 header,
 .main {
+	flex-direction: column;
 	-webkit-flex-direction: column;
 }
 
@@ -41,6 +43,14 @@ a {
 #info p,
 #info a {
 	color: #7f7f7f;
+}
+
+#profile_img {
+	border: solid 8px #d8f2d8;
+}
+
+.footer {
+	border-top: solid 1px #d8f2d8;
 }
 
 nav a,
@@ -101,10 +111,6 @@ li {
 	font-size: .94em;
 }
 
-.footer {
-	border-top: solid 1px #d8f2d8;
-}
-
 .footer a {
 	font-size: .8em;
 }
@@ -163,7 +169,6 @@ header p {
 	width: 200px;
 	height: 125px;
 	margin: 0 auto;
-	border: solid 8px #d8f2d8;
 }
 
 
@@ -272,9 +277,9 @@ header p {
 	/* 768px: Flexbox*/
 
 	header {
-		display: -webkit-flex;
-		-webkit-flex-direction: row-reverse;
-		-webkit-justify-content: space-between;
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
 	}
 
 	.main-content {
@@ -285,7 +290,7 @@ header p {
 	}
 
 	.group  {
-		-webkit-flex-grow: 1;
+		flex-grow: 1;
 	}
 
 	/* 768px: Font, Color, Links */
@@ -387,8 +392,8 @@ header p {
 	/* 1024px: FlexBox */
 	
 	.nav {
-		display: -webkit-flex;
-		-webkit-flex-direction: row;
+		display: flex;
+		flex-direction: row;
 	}
 
 	/* 1024px: Navigation */
