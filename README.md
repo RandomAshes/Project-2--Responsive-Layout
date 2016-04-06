@@ -5,4 +5,4 @@ In this project, I practiced responsive web design by creating a responsive samp
 Made as a project for TeamTreehouse's Techdegree program.
 
 Click for demo:
-http://randomashes.github.io/Project-2--Responsive-Layout/
+http://randomashes.github.io/Responsive-Layout/
